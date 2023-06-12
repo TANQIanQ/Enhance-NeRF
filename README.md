@@ -1,11 +1,13 @@
-![1](picture\1.gif ) ![2](picture\2.gif )
+![image](https://github.com/TANQIanQ/Enhance-NeRF/blob/master/picture/1.gif) ![image](https://github.com/TANQIanQ/Enhance-NeRF/blob/master/picture/2.gif )
 # About
 
 We propose the Enhance-NERF model, which can reconstruct outdoor scenes within an hour using a single graphics card. This MLP-based NERF method, built in PyTorch, enables fast model construction, expansion and deployment. In the tank and temple test, compared to other models, Enhance-NERF achieves better reconstruction of object materials and textures, effectively removing the fog-like noise in the background and providing clearer reconstruction results. Meanwhile, facing the uneven overexposure caused by one-sided light in outdoor scenes, Enhance-NERF averages the lighting intensity of the scene, making the boundary between foreground and background clearer.
 
+![image](https://github.com/TANQIanQ/Enhance-NeRF/blob/master/picture/1.png) 
+
 To better simulate image capture scenarios, we create the Mix Sample dataset by simply shooting various scenes without deliberately planning the image capture scheme. Under this condition, despite the complex lighting behavior in dense scenes, we still succeed in restoring diffuse and specular reflections in the scene while eliminating chromatic fog-like interference. In synthesizing new perspectives, we achieve good restoration of object shape and distribution of ray lights in the scene. The main components of our model can be used interchangeably with other models to enhance the lighting performance of other NERF-based models.
 
-![3](picture\2.png) 
+![image](https://github.com/TANQIanQ/Enhance-NeRF/blob/master/picture/2.png) 
 
 Enhance-Nerf program using [nerfstudio](https://arxiv.org/abs/2302.04264)
 
