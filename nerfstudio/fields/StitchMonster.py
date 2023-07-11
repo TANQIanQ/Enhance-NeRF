@@ -6,8 +6,8 @@
 
 
 解决的问题：
-1。模型的撰写，cleannerf影响下的模型，nerfw+niceslam
-2。体素导出工具，AI奎的nerf-pl的vol导出模型
+1。模型的撰写，多个模型影响下的综合，基础：nerfw+niceslam
+#TODO 2。体素导出工具，AI奎的nerf-pl的vol导出模型
 
 """
 from typing import Dict, Optional, Tuple
